@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Picture Tag in HTML</title>
+    </head>
+    <body>
+        <h1>Picture Tag in HTML</h1>
+        <picture>
+        <!--This Tag is used for two reasons:
+        1.Bandwidth:- If you have small screen or device, it is not necessary to load a large image file.
+        
+        2.Format Support:- Some browsers or devices may not suppport all image format
+        -->
+        <source media="(min-width:700px)"
+        srcset="file:///Users/pavanlokeshtai/Desktop/%20HTML%20and%20CSS/%20Images/%20pavan.jpeg">
+
+        <source media="(min-width:678px)"
+        srcset="file:///Users/pavanlokeshtai/Desktop/%20HTML%20and%20CSS/%20Images/apple.jpeg">
+
+        <img src="file:///Users/pavanlokeshtai/Desktop/%20HTML%20and%20CSS/%20Images/forest.jpeg">
+        </picture>
+    </body>
+</html>

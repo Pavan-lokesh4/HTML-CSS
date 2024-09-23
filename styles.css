@@ -1,0 +1,23 @@
+body
+{
+    color: aqua;
+    border: 2px dotted turquoise;
+}
+
+h1
+{
+    color: blue;
+    font-family: 'Franklin Gothic Medium';
+    font-size: large;
+    background-color: beige;
+    padding-top: 3px;
+
+}
+p
+{
+    color: tomato;
+    background-color: aquamarine;
+    font-family: cursive;
+    font-size: medium;
+    text-align: center;
+}

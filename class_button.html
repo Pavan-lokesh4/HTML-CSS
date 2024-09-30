@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style> 
+        .mypage{
+            background-color: crimson;
+            color: white;
+            font-family: cursive;
+            padding: 10px;
+            margin: 10px;
+            border: 3px dashed black;
+        }
+
+        .mynote{
+            background-color: aqua;
+            color: tomato;
+            font-family: times;
+
+        }
+        
+        .myrule{
+            background-color: burlywood;
+            color: blueviolet;
+            font-size: 30px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <h1>Hide all DIV tags using Java Script</h1>
+       <!-- <button onclick="myfunction()">HIDE</button>-->
+        <div class="mypage">
+            <h2>Pavan Lokesh Tai</h2>
+            <p>Master's in Computer Science and Engineering from TAMUK</p>
+        </div>
+        <div class="mypage">
+            <h2>Bhargav Bhavanam</h2>
+            <p>Master's in Data Science from Wichitha</p>
+        </div>
+        <div class="mypage">
+            <h2>Yogesh</h2>
+            <p>Master's in AI</p>
+        </div>
+        <div>
+            <h2>Hello this is <span class="mynote">HTML</span>course</h2>
+            <p>This is ver easy to learn and very <span class="mynote">important</span>for web developement</p>
+        </div>
+        <!--multiple classes-->
+        <div class="mypage mynote">
+            <h2>Bhaskar</h2>
+            <p>Bachelor's in BBA</p>
+        </div>
+        <h2 class="myrule">Pawan Klayan</h2>
+        <p class="myrule">Master's in Computer science from Texas Tech</p>
+
+        <script>
+            function myfunction(){
+                var x=document.getElementsByClassName("mypage");
+                for(var i=0;i<x.length;i++)
+                x[i].style.display="none";
+            }
+        </script>
+        <button onclick="myfunction()" style="align-items: center;">HIDE</button>
+    </body>
+</html>

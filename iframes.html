@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Iframe in HTML</title>
+        <style>
+            ul{
+                list-style-type: none;
+                padding: 0%;
+                margin: 0%;
+                overflow: hidden;
+                background-color: chocolate;
+            }
+
+            li{
+                float: left;
+            }
+            li a{
+                display: block;
+                padding: 25px;
+                text-align: center;
+                color: white;
+                text-decoration: none;
+                
+            }
+            li a:hover{
+                color: tomato;
+                background-color: yellowgreen;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1> iframes in html</h1>
+        <h3>Defines unordered bulleted lists</h3>
+        <ul>
+            <li><a href="https://www.xe.com/currencyconverter/"                 
+                target="myframe">Money Conversion</a></li>
+            <li> <a href="https://sudoconcepts.com/sudoconcepts/index.php" target="myframe">Contact</a></li>
+            <li> <a href="#">About us</a></li></ul><br/>
+
+            <iframe src="demo.html" style="border: 2px solid black; width: 600px; height: 300px;" name="myframe" title="Money and School" ></iframe>
+                
+        
+    </body>
+</html>

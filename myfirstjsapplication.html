@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY APPLICATION</title>
+        <style> 
+
+        </style>
+    </head>
+    <body>
+        <h1>MY FIRST JAVA SCRIPT APPLICATION</h1>
+
+        <img id="click" src="file:///Users/pavanlokeshtai/Desktop/%20HTML%20and%20CSS/%20Images/bulb_off.jpeg" style="width: 150px;height: 150px;"><br/>
+
+        <button  onclick="off_bulb()">Turn off</button>
+        <button  onclick="On_bulb()"> Turn on</button>
+
+        <script>
+            function off_bulb(){
+                document.getElementById("click").src="file:///Users/pavanlokeshtai/Desktop/%20HTML%20and%20CSS/%20Images/bulb_off.jpeg";
+            }
+
+            function On_bulb(){
+                document.getElementById("click").src="file:///Users/pavanlokeshtai/Desktop/%20HTML%20and%20CSS/%20Images/bulb_on.jpeg";
+            }
+        </script>
+        
+    </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style> 
+
+header{
+                background-color: cadetblue;
+                padding: 15px;
+                text-align: center;
+                font-size: 30px;
+                color:red;
+            }
+            nav{
+                float:left;
+                width:30%;
+                height: 300px;
+                background-color: darkseagreen;
+                padding:15px;
+            }
+            nav ul{
+                list-style-type: none;
+                padding:0;
+            }
+            article{
+                float:left;
+                padding:15px;
+                width:64%;
+                background-color:gold;
+                height: 430px;
+            }
+            footer{
+                background-color: black;
+                color:white;
+                text-align: center;
+                padding: 15px;
+            }
+            section::after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>CSS LAYOUT STRUCTURE</h2>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    
+                    <li><a href="#">Apply</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <article>
+                <p>
+                    <pre>
+______________________________________                   
+|                                     |
+|         &lt;header&gt;              |
+|                                     |
+______________________________________
+|                                     |
+|         &lt;nav&gt;                 |
+|                                     |
+______________________________________
+|                   |                 |
+|                   |                 |
+|                   |                 |
+|    &lt;section&gt;|   &lt;aside&gt; |
+|                   |                 |
+|                   |                 |
+|                   |                 |
+_____________________                 
+|                   |                 |
+|                   |                 |
+|    &lt;article&gt;      |           |
+|                   |                 |
+_____________________________________
+|                                    |
+|                                    |
+|          &lt;footer&gt;            |
+|                                    |
+_____________________________________
+</pre>
+
+                </p>
+                <p>
+                    <header> - defines a header for a document
+                        <nav> - defines a set of navigation links
+                        <section> - defines a section in a document
+                        <article> - defines an independent, self-contained content
+                        <aside>   - defines content aside from the content
+                        <footer> - defines a footer for a document
+                </p>
+            </article>
+        </section>
+        <footer><p>@copyright by - PAVAN</p></footer>
+        
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RESPONSIVE WEB DESIGN</title>
+        <style> 
+        .left{
+            background-color: blue;
+                padding: 10px;
+                float:left;
+                width:20%;
+                text-align: center;
+
+        }
+        .main{
+            background-color: gray;
+                padding:10px;
+                float:left;
+                width:50%;
+                text-align: center;
+
+
+        }
+        .right
+        {
+            background-color: tomato;
+                padding: 10px;
+                float: left;
+                width: 20%;
+                text-align: center;
+
+
+        }
+
+        @media and (max-width : 800px) {
+            .left, .right, .main {
+                width:100%;
+                
+            }
+            
+        }
+
+        </style>
+    </head>
+    <body>
+        <h1 style="font-size: 5vw;">RESPONSIVE WEB DESIGN</h1>
+        <p>
+            - web pages should look good on all devices.
+            - it will automatically adjust for different screen sizes.
+            - it is about automatically resize, hide, shrink or enlarge website to make it look good.
+            - we need to add &lt;meta&gt; tag to all our web pages.
+
+
+        </p>
+
+        <div class="left">left menu</div>
+        <div class="main"> main menu</div>
+        <div class="right">right menu</div>
+
+        
+    </body>
+</html>
